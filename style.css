@@ -248,6 +248,27 @@ th { background: #F8F9FC; font-weight: 600; color: var(--navy); }
 }
 .btn:hover { background: #A93226; color: #fff; }
 
+/* Big "Download on Google Play" button (home page) */
+.play-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+  padding: 14px 26px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #FFD54A, #F0A500);
+  color: #3D1F00;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: left;
+  box-shadow: 0 6px 18px rgba(240, 165, 0, 0.35);
+}
+.play-btn small { display: block; font-size: 12px; font-weight: 600; opacity: 0.8; }
+.play-btn:hover { filter: brightness(1.05); color: #3D1F00; }
+.hero .play-note { margin-top: 10px; font-size: 13px; color: #C9CFE0; }
+
 /* ── Footer ────────────────────────────────── */
 footer {
   background: var(--navy);
