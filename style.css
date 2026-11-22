@@ -1,11 +1,11 @@
 /* Inaam Bazar — official website styles */
 :root {
-  --navy: #1A1A2E;
-  --navy-2: #16213E;
-  --navy-3: #0F3460;
-  --gold: #F0A500;
-  --gold-bright: #F5C518;
-  --red: #C0392B;
+  --navy: #1E3A8A;
+  --navy-2: #1E3A8A;
+  --navy-3: #172554;
+  --gold: #F97316;
+  --gold-bright: #FDBA74;
+  --red: #C2410C;
   --green: #1E8E4E;
   --green-bg: #E8F7EE;
   --ink: #1F2937;
@@ -30,7 +30,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-a { color: var(--navy-3); text-underline-offset: 3px; }
+a { color: var(--navy); text-underline-offset: 3px; }
 a:hover { color: var(--red); }
 
 /* ── Top bar ───────────────────────────────── */
@@ -74,7 +74,7 @@ a:hover { color: var(--red); }
 /* ── Hero ──────────────────────────────────── */
 .hero {
   background:
-    radial-gradient(circle at 80% 0%, rgba(245,197,24,0.18), transparent 45%),
+    radial-gradient(circle at 80% 0%, rgba(249,115,22,0.16), transparent 45%),
     linear-gradient(160deg, var(--navy) 0%, var(--navy-2) 55%, var(--navy-3) 100%);
   color: #fff;
   padding: 44px 16px 56px;
@@ -124,7 +124,7 @@ main {
 
 .summary {
   border-left: 5px solid var(--gold);
-  background: #FFFBEB;
+  background: #FFF4E6;
 }
 .summary h2 { margin-top: 0; font-size: 18px; }
 .summary ul { margin: 0; padding-left: 20px; }
@@ -194,7 +194,7 @@ th { background: #F8F9FC; font-weight: 600; color: var(--navy); }
   border-radius: 12px;
   display: grid; place-items: center;
   font-size: 22px;
-  background: #FFF6D6;
+  background: #E8EEFB;
   margin-bottom: 10px;
 }
 .tile h3 { margin: 0 0 4px; font-size: 17px; color: var(--navy); }
@@ -239,14 +239,14 @@ th { background: #F8F9FC; font-weight: 600; color: var(--navy); }
 
 .btn {
   display: inline-block;
-  background: var(--red);
+  background: var(--gold);
   color: #fff;
   text-decoration: none;
   font-weight: 600;
   padding: 10px 18px;
   border-radius: 10px;
 }
-.btn:hover { background: #A93226; color: #fff; }
+.btn:hover { background: #C2410C; color: #fff; }
 
 /* Big "Download on Google Play" button (home page) */
 .play-btn {
@@ -256,17 +256,17 @@ th { background: #F8F9FC; font-weight: 600; color: var(--navy); }
   margin-top: 18px;
   padding: 14px 26px;
   border-radius: 999px;
-  background: linear-gradient(180deg, #FFD54A, #F0A500);
-  color: #3D1F00;
+  background: linear-gradient(180deg, #FB923C, #F97316);
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.2;
   text-align: left;
-  box-shadow: 0 6px 18px rgba(240, 165, 0, 0.35);
+  box-shadow: 0 6px 18px rgba(249, 115, 22, 0.35);
 }
 .play-btn small { display: block; font-size: 12px; font-weight: 600; opacity: 0.8; }
-.play-btn:hover { filter: brightness(1.05); color: #3D1F00; }
+.play-btn:hover { filter: brightness(1.05); color: #FFFFFF; }
 .hero .play-note { margin-top: 10px; font-size: 13px; color: #C9CFE0; }
 
 /* ── Footer ────────────────────────────────── */
